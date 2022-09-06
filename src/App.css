@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navCon{
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}

@@ -3,7 +3,10 @@ import React from "react";
 function Navbar(){
     return(
       <div className="navCon">
-        navCon
+        <div className="logoCon">
+          <img className="logoImg" src="images/globe.png" alt=""/>
+          <span className="logoText">my traveffdl journal.</span>
+        </div>
       </div>  
     );
 }
