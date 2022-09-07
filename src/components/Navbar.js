@@ -5,7 +5,7 @@ function Navbar(){
       <div className="navCon">
         <div className="logoCon">
           <img className="logoImg" src="images/globe.png" alt=""/>
-          <span className="logoText">my traveffdl journal.</span>
+          <span className="logoText">my travel journal.</span>
         </div>
       </div>  
     );
