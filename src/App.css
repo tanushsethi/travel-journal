@@ -27,3 +27,8 @@
     color: white;
     margin-left: 5px;
 }
+
+.cardCon{
+    width: 100%;
+    background-color: aqua;
+}

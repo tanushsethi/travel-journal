@@ -1,5 +1,6 @@
 var dataArray = [
     {
+        id:1,
         title: "Mount Fuji",
         location: "Japan",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -9,7 +10,8 @@ var dataArray = [
         imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
     },
     {
-        title: "Mount Fuji",
+        id:2,
+        title: "Mount Fuji2",
         location: "Japan",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
@@ -18,7 +20,8 @@ var dataArray = [
         imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
     },
     {
-        title: "Mount Fuji",
+        id:3,
+        title: "Mount Fuji3",
         location: "Japan",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "12 Jan, 2021",
