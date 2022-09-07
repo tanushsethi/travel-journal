@@ -1,8 +1,10 @@
 import React from "react";
 
-function RightCard() {
+function RightCard(props) {
     return (
-        <h1>l</h1>
+        <div className="rightInner">
+            
+        </div>
     );
 }
 

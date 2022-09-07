@@ -1,8 +1,10 @@
 import React from "react";
 
-function LeftCard(){
+function LeftCard(props){
     return(
-        <h1>l</h1>
+        <div className="leftInner">
+            <img src={props.imageUrl} alt=""/>
+        </div>
     );
 }
 

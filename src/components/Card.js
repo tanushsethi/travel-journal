@@ -6,10 +6,14 @@ function Card(props){
     return(
         <div className="card">
             <div className="left">
-                <LeftCard/>
+                <LeftCard
+                    {...props}
+                />
             </div>
             <div className="right">
-                <RightCard/>
+                <RightCard
+                    {...props}
+                />
             </div>
         </div>
     );
