@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Inter;
 }
 
 .navCon{
@@ -34,7 +35,7 @@
 
 .card{
     height: 40vw;
-    margin: 20px;
+    margin: 40px 80px;
     display: flex;
 }
 
@@ -72,6 +73,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 50px 50px 50px 50px;
 }
 
 .marker{
@@ -83,4 +85,41 @@
 .div1{
     display: flex;
     align-items: center;
+}
+
+.div1 span{
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+}
+
+.div1 a{
+    color: gray;
+    font-size: 14px;
+    margin-left: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+.div1 a::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    top:120%;
+    left:0%;
+    background-color: gray;
+}
+
+.div2{
+    font-size: 40px;
+}
+
+.div3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div4{
+    color: gray;
 }
