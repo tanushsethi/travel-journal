@@ -69,5 +69,18 @@
 .rightInner {
     height: 80%;
     width: 100%;
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.marker{
+    height: 20px;
+    width: 20px;
+    object-fit:contain;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
 }
