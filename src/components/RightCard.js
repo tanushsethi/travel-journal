@@ -6,7 +6,7 @@ function RightCard(props) {
             <div className="div1">
                 <img src="images/marker.png" alt="" className="marker"/>
                 <span className="">{props.location.toUpperCase()}</span>
-                <a href={props.googleMapsUrl}>View on Google Mans</a>
+                <a href={props.googleMapsUrl}>View on Google Maps</a>
             </div>
             <div className="div2">
                 <h1>{props.title}</h1>
